@@ -1,0 +1,8 @@
+dataset,local_file,source_url,date_and_provenance
+"Study frame, LULC, wells and monitoring locations",02_Data/GIS/Friant_Division_All_Layers.gpkg,See layer source/source_url attributes,Copied snapshot; original retrieval date not stored for every layer
+3DEP,03_Results/Groundwater/Rasters/USGS_3DEP_DEM_90m_EPSG3310.tif,https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer,Copied 9 September 2026 service-export cache; acquisition vintage varies
+Geology,02_Data/Groundwater/Raw/CGS_Generalized_Rock_Types_Friant.gpkg,https://gis.conservation.ca.gov/server/rest/services/CGS/Geologic_Map_of_California/FeatureServer/12,2010 map; copied 9 September 2026 cache
+Soils,02_Data/Groundwater/Raw/SSURGO_MapunitPoly_Friant.gpkg,https://sdmdataaccess.sc.egov.usda.gov/,9 September 2026 download; see acquisition log
+Rainfall,02_Data/Groundwater/Raw/gridMET_annual_precip_1993_2025_Friant.nc,https://www.climatologylab.org/gridmet.html,9 September 2026 download; 1993–2025 data
+Groundwater basins,02_Data/Groundwater/Raw/DWR_Bulletin118_Groundwater_Basins_Friant.gpkg,https://gis.water.ca.gov/arcgis/rest/services/Geoscientific/i08_B118_CA_GroundwaterBasins/FeatureServer/0,9 September 2026 download; see acquisition log
+Groundwater observations,02_Data/Groundwater/usgs_groundwater_field_measurements_1993_2025.csv,https://api.waterdata.usgs.gov/ogcapi/v0/,8 September 2026 retrieval per source records
