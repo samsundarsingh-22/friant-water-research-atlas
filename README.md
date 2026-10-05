@@ -23,7 +23,7 @@ The research layers and charts are stored in this folder. Esri and OpenStreetMap
 
 - `index.html` — wording, section order, source links and downloadable files.
 - `styles.css` — colour themes, layout and responsive design.
-- `app.js` — charts, interactive map behaviour, layer styling and thematic-map descriptions.
+- `app.js` — charts, map behaviour, layer styling and thematic-map descriptions.
 - `prepare_layers.py` — reproducibly rebuilds the web-ready GIS layers and chart data from the research package.
 - `assets/` — static publication maps and georeferenced raster overlays.
 - `data/` — browser-ready map data, research summaries and downloadable CSV files.

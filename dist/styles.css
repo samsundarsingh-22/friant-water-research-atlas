@@ -104,9 +104,9 @@ button, input { font: inherit; }
 .process-flow span { display: grid; place-items: center; width: 26px; height: 26px; margin-bottom: 1rem; border-radius: 50%; color: var(--navy); background: var(--teal-bright); font-size: .7rem; font-weight: 900; }
 .process-flow b, .process-flow small { display: block; }
 .process-flow b { font-size: .85rem; }.process-flow small { margin-top: .5rem; color: #aebfd1; line-height: 1.45; }
-.plain-warning { margin-top: 1.25rem; padding: 1rem 1.2rem; border-left: 4px solid var(--amber); color: var(--ink); background: #fff4df; border-radius: 0 12px 12px 0; font-size: .85rem; }
-.process-card .plain-warning { color: #e8f1fa; background: rgba(233,162,59,.11); }
-.plain-warning.strong { max-width: 1050px; margin: 2rem auto 0; }
+.research-note { margin-top: 1.25rem; padding: 1rem 1.2rem; border-left: 4px solid var(--amber); color: var(--ink); background: #fff4df; border-radius: 0 12px 12px 0; font-size: .85rem; }
+.process-card .research-note { color: #e8f1fa; background: rgba(233,162,59,.11); }
+.research-note.strong { max-width: 1050px; margin: 2rem auto 0; }
 
 .chart-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
 .chart-card, .insight-card, .district-table-card { padding: 1.5rem; border: 1px solid var(--line); border-radius: var(--radius); background: white; box-shadow: 0 12px 35px rgba(18,38,59,.05); }

@@ -229,7 +229,7 @@
   $("#closeDialog").addEventListener("click", () => imageDialog.close());
   imageDialog.addEventListener("click", event => { if (event.target === imageDialog) imageDialog.close(); });
 
-  /* Georeferenced interactive map */
+  /* Georeferenced map */
   if (!window.L || !M) {
     $("#researchMap").innerHTML = '<div style="padding:2rem">The map library or prepared layers could not be loaded. Open this folder through a local web server and confirm that vendor/leaflet.js and data/map-data.js are present.</div>';
     return;
