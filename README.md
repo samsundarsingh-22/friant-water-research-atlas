@@ -25,6 +25,10 @@ The research layers and charts are stored in this folder. Esri and OpenStreetMap
 - `data/` — browser-ready map data, research summaries and downloadable CSV files.
 - `vendor/` — the local Leaflet map library.
 
+The hero uses `assets/san-joaquin-river-hero.png`, an original AI-generated editorial background prepared for this project. Its production prompt requested a wide, high-oblique Central Valley river-and-agriculture scene with dark negative space for the heading, no text, no logo and no claim that it depicts one exact location.
+
+The live weather strip retrieves current temperature, relative humidity and daily precipitation from Open-Meteo for a reference point near Friant Dam. It is labelled as contextual orientation and is not mixed with the audited gridMET research series.
+
 ## Rebuild after research-data changes
 
 The preparation script never alters the source research package. Run:
