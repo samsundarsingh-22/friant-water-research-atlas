@@ -45,7 +45,7 @@
     const node = document.querySelector(`[data-count="${key}"]`);
     if (node) node.textContent = fmt.format(value);
   });
-  $("#generatedDate").textContent = new Date(`${D.generated}T00:00:00`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+  if ($("#generatedDate")) $("#generatedDate").textContent = new Date(`${D.generated}T00:00:00`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
 
   async function loadCurrentWeather() {
     const url = "https://api.open-meteo.com/v1/forecast?latitude=37.00&longitude=-119.71&current=temperature_2m,relative_humidity_2m,precipitation&daily=precipitation_sum&temperature_unit=celsius&precipitation_unit=mm&timezone=America%2FLos_Angeles&forecast_days=1";
