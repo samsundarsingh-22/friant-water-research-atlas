@@ -1,5 +1,9 @@
 # Friant Water Research Atlas
 
+## GitHub Pages deployment
+
+The editable source is stored in this repository, and the publishable static website is in `dist/`. The workflow at `.github/workflows/deploy-pages.yml` publishes `dist/` to GitHub Pages whenever the `main` branch is updated. In the repository's Pages settings, the deployment source must be set to **GitHub Actions**.
+
 This folder is a complete, editable, local research microsite. It combines the Friant study narrative, descriptive charts, map layers, thematic maps, crop and farmland context, population context, empirical-feasibility assessment, source links and downloadable analysis tables.
 
 ## Open the site
